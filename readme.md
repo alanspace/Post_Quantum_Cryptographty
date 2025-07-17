@@ -1,6 +1,4 @@
-
-
-Post-Quantum Key Exchange: A Kyber (ML-KEM) Simulation
+# Post-Quantum Key Exchange: A Kyber (ML-KEM) Simulation
 This repository contains a Python script that simulates and explains the Kyber (ML-KEM) algorithm, the primary post-quantum key exchange mechanism selected for standardization by NIST.
 
 The script demonstrates how two parties, Alice and Bob, can establish a shared secret key over an insecure channel, safe from attacks by both classical and quantum computers. It then uses this shared key in a hybrid encryption scheme with AES-GCM to send secure messages.
